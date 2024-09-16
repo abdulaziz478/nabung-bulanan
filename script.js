@@ -24,7 +24,7 @@ form.addEventListener("submit", (event) => {
   const pesan = `Tanggal: ${tanggal}, Jumlah: Rp.${jumlah}`;
 
   // Buat link WhatsApp
-  const linkWhatsApp = `https://api.whatsapp.com/send?phone=085853260316&text=${encodeURIComponent(
+  const linkWhatsApp = `https://api.whatsapp.com/send?phone=+6285853260316&text=${encodeURIComponent(
     pesan
   )}`;
 
