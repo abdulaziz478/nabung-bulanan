@@ -1,0 +1,59 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom, #f7f7f71a, #dcdcdc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  padding: 40px;
+  width: 80%;
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label,
+input {
+  margin: 10px 0;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#hasil {
+  margin-top: 20px;
+}
+/* ... (style CSS sebelumnya) */
+
+/* Responsivitas */
+@media (max-width: 768px) {
+  html {
+    font-size: 18px; /* Perbesar ukuran font untuk perangkat mobile */
+  }
+  .container {
+    width: 90%;
+  }
+  input,
+  button {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+}

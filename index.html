@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catatan Tabungan Bulanan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Catatan Tabungan Bulanan</h1>
+      <form id="tabunganForm">
+        <label for="tanggal">Tanggal:</label>
+        <input type="date" id="tanggal" name="tanggal" required />
+        <label for="jumlah">Jumlah:</label>
+        <input type="number" id="jumlah" name="jumlah" required />
+        <button type="submit">Simpan</button>
+      </form>
+      <div id="hasil"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
